@@ -15,11 +15,10 @@ const UserList = () => {
   return (
     <div>
       { users.map(({id, name, age})=> (
-        <ul key={id}>
-            <li>{id}</li>
-            <li>{name}</li>
-            <li>{age}</li>
-        </ul>
+        <div key={id}>
+            <h1>Name: {name}</h1>
+            <h1>Age: {age}</h1>
+        </div>
       ))}
     </div>
   );
