@@ -1,11 +1,12 @@
 import React from 'react'
-import JSXRules from './Components/JSXRules'
+import Greeting from './Components/Greeting'
+import ProductInfo from './Components/ProductInfo'
 
 
 const App = () => {
   return (
     <div>
-      <JSXRules />
+      <ProductInfo />
     </div>
   )
 }
