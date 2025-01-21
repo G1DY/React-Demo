@@ -8,7 +8,7 @@ const ProductInfo = () => {
     };
   return (
     <div>
-      <p>The product is a {product.name}, worth ${product.price} and is {product.availability} </p>
+      <p>This product is a {product.name}, worth ${product.price} and is {product.availability} </p>
     </div>
   )
 }
