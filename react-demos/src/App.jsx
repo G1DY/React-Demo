@@ -1,11 +1,11 @@
 import React from 'react'
-import MouseTest from './Components/MouseTest'
+import CountNu from './Components/CountNu'
 
 
 const App = () => {
   return (
     <div>
-      <MouseTest/>
+      <CountNu/>
     </div>
   )
 }

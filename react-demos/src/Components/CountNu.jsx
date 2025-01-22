@@ -1,18 +1,21 @@
+import { useState } from "react";
 import React from 'react'
-import { useState } from 'react'
 
-const Count = () => {
-    const [count, setState] = useState(0);
-
-    const Increment = () => setState(count+1);
-    const Decrement = () => setState(count-1);
+const CountNu = () => {
+  const[count, setCount] = useState(0);
+  function Increment() {
+    setCount(count+1);
+  }
+  function Decrement() {
+    setCount(count-1);
+  }
   return (
     <div>
-        <h1>0</h1>
-        <button onClick={Increment}></button>
-        <button onClick={Decrement}></button>
+      <p>Count: {count}</p>
+      <button onClick={Increment}>+</button>
+      <button onClick={Decrement}>-</button>
     </div>
   );
 };
 
-export default Count
+export default CountNu
