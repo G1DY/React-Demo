@@ -1,15 +1,11 @@
 import React from 'react'
-import ProfileCard from './Components/ProfileCard'
-import StyledCard from './Components/StyledCard'
-import IconComponent from './Components/IconComponent'
+import ButtonTest from './Components/ButtonTest'
 
 
 const App = () => {
   return (
     <div>
-      <StyledCard/>
-      <ProfileCard />
-      <IconComponent/>
+      <ButtonTest/>
     </div>
   )
 }

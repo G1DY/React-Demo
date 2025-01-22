@@ -4,8 +4,8 @@ const ProfileCard = () => {
     const styles = {backgroundColor: 'lightgray', padding: '15px', borderRadius: '8px', color: 'black'}
   return (
     <div style={styles}>
-        <h1>Inline Style</h1>
-        <p>Using a styling variable</p>
+        <h1>Profile Card</h1>
+        <p>Using a styling object</p>
     </div>
   )
 }
