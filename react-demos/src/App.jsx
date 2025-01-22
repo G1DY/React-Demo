@@ -1,11 +1,11 @@
 import React from 'react'
-import UserStatus from './Components/UserStatus'
+import ProfileCard from './Components/ProfileCard'
 
 
 const App = () => {
   return (
     <div>
-      <UserStatus loggedIn={false} isAdmin={true}/> 
+      <ProfileCard />
     </div>
   )
 }
