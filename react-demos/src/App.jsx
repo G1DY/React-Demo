@@ -1,11 +1,11 @@
 import React from 'react'
-import GenerateRandomNumbers from './Components/GenerateRandomNumbers'
+import LocalStorage from './Components/LocalStorage'
 
 
 const App = () => {
   return (
     <div>
-      <GenerateRandomNumbers/>
+      <LocalStorage/>
     </div>
   )
 }
