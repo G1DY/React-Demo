@@ -1,11 +1,12 @@
 import React from 'react'
-import ShopingList from './Components/ShopingList'
+import CopyInput from './ComponentTwo/CopyInput'
+
 
 
 const App = () => {
   return (
     <div>
-      <ShopingList/>
+      <CopyInput/>
     </div>
   )
 }
