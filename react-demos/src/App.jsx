@@ -1,11 +1,11 @@
 import React from 'react'
-import Weather from './Components/Weather'
+import UserStatus from './Components/UserStatus'
 
 
 const App = () => {
   return (
     <div>
-      <Weather/> 
+      <UserStatus loggedIn={false} isAdmin={true}/> 
     </div>
   )
 }
