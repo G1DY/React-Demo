@@ -1,11 +1,11 @@
 import React from 'react'
-import CountNu from './Components/CountNu'
+import Friends from './Components/Friends'
 
 
 const App = () => {
   return (
     <div>
-      <CountNu/>
+      <Friends/>
     </div>
   )
 }
