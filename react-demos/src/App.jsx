@@ -1,11 +1,11 @@
 import React from 'react'
-import Friends from './Components/Friends'
+import AddFriend from './Components/AddFriend'
 
 
 const App = () => {
   return (
     <div>
-      <Friends/>
+      <AddFriend/>
     </div>
   )
 }
