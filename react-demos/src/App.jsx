@@ -1,11 +1,11 @@
 import React from 'react'
-import UseStateAsAFunction from './Components/UseStateAsAFunction'
+import GenerateRandomNumbers from './Components/GenerateRandomNumbers'
 
 
 const App = () => {
   return (
     <div>
-      <UseStateAsAFunction/>
+      <GenerateRandomNumbers/>
     </div>
   )
 }
