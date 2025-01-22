@@ -1,11 +1,11 @@
 import React from 'react'
-import CopyTest from './Components/CopyTest'
+import MouseTest from './Components/MouseTest'
 
 
 const App = () => {
   return (
     <div>
-      <CopyTest/>
+      <MouseTest/>
     </div>
   )
 }
