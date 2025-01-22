@@ -1,11 +1,11 @@
 import React from 'react'
-import AddFriend from './Components/AddFriend'
+import ChangeMovieRating from './Components/ChangeMovieRating'
 
 
 const App = () => {
   return (
     <div>
-      <AddFriend/>
+      <ChangeMovieRating/>
     </div>
   )
 }
