@@ -4,7 +4,7 @@ import { useState } from 'react'
 const ChangeMovieRating = () => {
     const [movie, setMovie] = useState({
         title: 'squidGame',
-        rating: 10
+        rating: 10,
     });
     const ChangeRating = () => {
         const copyMovie = {

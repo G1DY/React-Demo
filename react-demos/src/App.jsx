@@ -1,11 +1,11 @@
 import React from 'react'
-import ChangeMovieRating from './Components/ChangeMovieRating'
+import MovieArray from './Components/MovieArray'
 
 
 const App = () => {
   return (
     <div>
-      <ChangeMovieRating/>
+      <MovieArray/>
     </div>
   )
 }
