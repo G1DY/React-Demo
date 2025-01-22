@@ -1,11 +1,11 @@
 import React from 'react'
-import LocalStorage from './Components/LocalStorage'
+import Profile from './Components/Profile'
 
 
 const App = () => {
   return (
     <div>
-      <LocalStorage/>
+      <Profile/>
     </div>
   )
 }
