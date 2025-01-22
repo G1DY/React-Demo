@@ -1,11 +1,11 @@
 import React from 'react'
-import ButtonTest from './Components/ButtonTest'
+import CopyTest from './Components/CopyTest'
 
 
 const App = () => {
   return (
     <div>
-      <ButtonTest/>
+      <CopyTest/>
     </div>
   )
 }
