@@ -1,11 +1,11 @@
 import React from 'react'
-import MovieArray from './Components/MovieArray'
+import UseStateAsAFunction from './Components/UseStateAsAFunction'
 
 
 const App = () => {
   return (
     <div>
-      <MovieArray/>
+      <UseStateAsAFunction/>
     </div>
   )
 }
