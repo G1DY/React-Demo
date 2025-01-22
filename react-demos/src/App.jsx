@@ -1,11 +1,11 @@
 import React from 'react'
-import Profile from './Components/Profile'
+import ShopingList from './Components/ShopingList'
 
 
 const App = () => {
   return (
     <div>
-      <Profile/>
+      <ShopingList/>
     </div>
   )
 }
