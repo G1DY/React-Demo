@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import BasicEffect from './ComponentUseEffectQuiz/BasicEffect'
-import CounterEffect from './ComponentUseEffectQuiz/CounterEffect'
-
+import FetchData from './ComponentUseEffectQuiz/FetchData'
 
 
 
 const App = () => {
   return (
     <div>
-      <CounterEffect/>
+      <FetchData />
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 const CounterEffect = () => {
-    const [count, setCount] = useState([]);
+    const [count, setCount] = useState(0);
 
     useEffect(() => {
         if (count > 0) {
@@ -10,7 +10,7 @@ const CounterEffect = () => {
         }
         document.title = `Decrement ${count}`;
         setCount(count);
-    }, [count]);
+    }, []);
   return (
     <div>
         <h1>{count}</h1>
