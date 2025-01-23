@@ -1,5 +1,5 @@
-import React from 'react'
-import Effects from './ComponentTwo/Effects'
+import React, { useEffect, useState } from 'react'
+import FetchingData from './ComponentTwo/FetchingData'
 
 
 
@@ -7,7 +7,7 @@ import Effects from './ComponentTwo/Effects'
 const App = () => {
   return (
     <div>
-      <Effects />
+      <FetchingData />
     </div>
   )
 }
