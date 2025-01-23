@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from 'react'
-import FetchData from './ComponentUseEffectQuiz/FetchData'
+import UserProfile from './ComponentUseContext/UserProfile'
+import { UserProvider } from './ComponentUseContext/UserContext'
+import UpdateUser from './ComponentUseContext/UpdateUser'
 
 
 
 const App = () => {
   return (
-    <div>
-      <FetchData />
-    </div>
+    <UserProvider>
+      <UserProfile />
+      <UpdateUser/>
+    </UserProvider>
   )
 }
 
