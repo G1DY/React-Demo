@@ -1,12 +1,13 @@
 import React from 'react'
-import Switcher from './ComponentTwo/Switcher'
+import Effects from './ComponentTwo/Effects'
+
 
 
 
 const App = () => {
   return (
     <div>
-      <Switcher />
+      <Effects />
     </div>
   )
 }
