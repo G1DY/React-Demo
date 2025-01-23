@@ -4,8 +4,8 @@ const Effects = () => {
     const [value, setValue] = useState(0);
     useEffect(()=> {
         console.log("Call eseEffects");
-        document.title = `Increment $value`;
-    });
+        document.title = `Increment ${value}`;
+    }, [value]);
   return (
     <div>
         <h1>{value}</h1>
