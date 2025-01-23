@@ -1,12 +1,12 @@
 import React from 'react'
-import CopyInput from './ComponentTwo/CopyInput'
+import Switcher from './ComponentTwo/Switcher'
 
 
 
 const App = () => {
   return (
     <div>
-      <CopyInput/>
+      <Switcher />
     </div>
   )
 }
