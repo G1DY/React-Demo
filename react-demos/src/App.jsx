@@ -1,10 +1,9 @@
-import FocusInput from './UseRefComponet/FocusInput'
-import Timer from './UseRefComponet/Timer'
+import UrlFetch from './CustomHookComponent/UrlFetch'
 
 
 const App = () => {
   return (
-    <Timer/>
+    <UrlFetch/>
   )
 }
 
