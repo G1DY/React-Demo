@@ -1,9 +1,10 @@
-import Counter from './UseReducerComponent/Counter'
+import FocusInput from './UseRefComponet/FocusInput'
+import Timer from './UseRefComponet/Timer'
 
 
 const App = () => {
   return (
-    <Counter/>
+    <Timer/>
   )
 }
 
